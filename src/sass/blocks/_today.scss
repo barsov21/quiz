@@ -1,0 +1,87 @@
+.today {
+    position: relative;
+    padding: 62px 0 63px 0;
+    background: url('../img/today/today-bg.png') center (center / cover) no-repeat;
+    min-height: 658px;
+    
+    box-sizing: border-box;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-size: 45px;
+        line-height: 47px;
+        max-width: 788px;
+        margin-left: 0;
+        text-align: left;
+        margin-bottom: 74px;
+    }
+    &__content-items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 672px;
+    }
+    &__content-item {
+        width: 324px;
+        margin-bottom: 69px;
+        &:nth-child(3),
+        &:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
+    &__content-descr {
+        position: relative;
+        padding-left: 41px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 32px;
+            height: 17px;
+            background: url('../icons/today/today-icon.svg') center (center / cover) no-repeat;
+        }
+    }
+    &__block {
+        position: relative;
+        padding: 85px 0 59px 0;
+        width: 620px;
+        height: 506px;
+        background-color: #fff;
+        box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+        border-radius: 10px;
+        border: 1px solid #8CD742;
+    }
+    // &__block-behind {
+    //     position: absolute;
+    //     z-index: -1;
+    //     bottom: -20px;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     width: 655px;
+    //     height: 320px;
+    //     background: #FFFFFF;
+    //     box-shadow: 0px 18px 53px rgba(249, 207, 48, 0.4);
+    //     border-radius: 5px;
+    // }
+    &__block-title {
+        text-align: center;
+        font-size: 27px;
+        line-height: 33px;
+        font-weight: 700;
+        margin-bottom: 54px;
+    }
+    &__block-form {
+        max-width: 425px;
+        margin: 0 auto;
+        .today__block-button {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.features {
+    padding: 50px 0 160px 0;
+    font-weight: 400;
+    &__title {
+        max-width: 1075px;
+        margin-bottom: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1266px;
+        margin: 0 auto;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        max-width: 343px;
+    }
+    &__item-descr {
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}

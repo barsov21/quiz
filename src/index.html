@@ -32,24 +32,29 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="humburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <div class="header__promo">
                 <div class="header__content">
                     <h1 class="header__content-title">
-                        ЗАКОННО СПИШЕМ ДОЛГИ
+                        ЗАКОННО СПИШЕМ ДОЛГИ 
                         <span>
-                            или выплатим их за Вас
+                            или выплатим их за Вас <br>
                             в тройном размере
-                            и защитим Ваше имущество
                         </span>
-                        или выплатим их за Вас
+                        и защитим Ваше имущество
                     </h1>
                     <div class="header__content-divider"></div>
                     <span class="header__content-small">
                         Банкротсво физических лиц в Самаре
                         и Самарской области
                     </span>
-                    <button class="button header__content-button">
+                    <img src="./img/header/header-image-mobile.png" alt="image-mobile" class="header__image-mobile">
+                    <button data-modal class="button header__content-button">
                         Списать долг
                     </button>
                 </div>
@@ -69,13 +74,13 @@
                 </h2>
                 <div class="features__items">
                     <div class="features__item">
-                        <img src="./icons/features/features-icon-1" alt="features-icon-1">
+                        <img src="./icons/features/features-icon-1.svg" alt="features-icon-1">
                         <p class="features__item-descr">
                             Вам перестанут названивать и угрожать коллекторы
                         </p>
                     </div>
                     <div class="features__item">
-                        <img src="./icons/features/features-icon-2" alt="features-icon-2">
+                        <img src="./icons/features/features-icon-2.svg" alt="features-icon-2">
                         <p class="features__item-descr">
                             Прекратятся
                             обязательства по оплате
@@ -83,7 +88,7 @@
                         </p>
                     </div>
                     <div class="features__item">
-                        <img src="./icons/features/features-icon-3" alt="features-icon-3">
+                        <img src="./icons/features/features-icon-3.svg" alt="features-icon-3">
                         <p class="features__item-descr">
                             Будете спать спокойно
                             и появится уверенность
@@ -107,32 +112,28 @@
                 <div class="today__wrapper">
                     <div class="today__content">
                         <h2 class="title today__title">
-                            Запустим списание долга
+                            Запустим списание долга <br>
                             уже сегодня за 2990 рублей
                         </h2>
                         <div class="today__content-items">
                             <div class="today__content-item">
-                                <img src="./icons/today/today-icon-1" alt="today-icon-1">
                                 <p class="today__content-descr">
-                                    Полностью освободим от кредиторов и долгов
+                                    Полностью освободим от <br> кредиторов и долгов
                                 </p>
                             </div>
                             <div class="today__content-item">
-                                <img src="./icons/today/today-icon-2" alt="today-icon-2">
                                 <p class="today__content-descr">
-                                    Избавим от коллекторов и служб взыскания
+                                    Избавим от коллекторов и <br> служб взыскания
                                 </p>
                             </div>
                             <div class="today__content-item">
-                                <img src="./icons/today/today-icon-3" alt="today-icon-3">
                                 <p class="today__content-descr">
                                     Сохраним имущество и доход
                                 </p>
                             </div>
                             <div class="today__content-item">
-                                <img src="./icons/today/today-icon-4" alt="today-icon-4">
                                 <p class="today__content-descr">
-                                    Будет доступен выезд за границу
+                                    Будет доступен выезд за <br> границу
                                 </p>
                             </div>
                         </div>
@@ -144,6 +145,7 @@
                             <input class="input" type="text" placeholder="+7 (___) ___ - __ - __">
                             <button class="button today__block-button">Отправить заявку</button>
                         </form>
+                        <div class="today__block-behind"></div>
                     </div>
                 </div>
             </div>
@@ -152,41 +154,44 @@
 
         <section class="important">
             <div class="container">
-                <h2 class="title important__title">Важно</h2>
+                <h2 class="title important__title">Важно!</h2>
                 <div class="important__subtitle">
                     Если кредитор подаст заявление на Ваше банкроство первым:
                 </div>
                 <div class="important__wrapper">
-                    <img src="./img/important/important-image.png" alt="important">
-                    <div class="important__items">
-                        <div class="important__item">
-                            <img src="./icons/important/important-icon-1.svg" alt="important-icon-1">
-                            <p class="important__item-descr">
-                                Вам грозит судебное преследование
-                            </p>
+                    <img class="important__image" src="./img/important/important-image.png" alt="important-image">
+                    <button data-modal class="button important__button-mobile">Списать долг</button>
+                    <div class="important__content">
+                        <div class="important__items">
+                            <div class="important__item">
+                                <img src="./icons/important/important-icon-1.svg" alt="important-icon-1">
+                                <p class="important__item-descr">
+                                    Вам грозит судебное преследование
+                                </p>
+                            </div>
+                            <div class="important__item">
+                                <img src="./icons/important/important-icon-2.svg" alt="important-icon-2">
+                                <p class="important__item-descr">
+                                    Вы не сможете выехать
+                                    за границу
+                                </p>
+                            </div>
+                            <div class="important__item">
+                                <img src="./icons/important/important-icon-3.svg" alt="important-icon-3">
+                                <p class="important__item-descr">
+                                    Возможен арест имущества
+                                </p>
+                            </div>
+                            <div class="important__item">
+                                <img src="./icons/important/important-icon-4.svg" alt="important-icon-4">
+                                <p class="important__item-descr">
+                                    Приготовьтесь к
+                                    конфискации имущества
+                                </p>
+                            </div>
                         </div>
-                        <div class="important__item">
-                            <img src="./icons/important/important-icon-2.svg" alt="important-icon-2">
-                            <p class="important__item-descr">
-                                Вы не сможете выехать
-                                за границу
-                            </p>
-                        </div>
-                        <div class="important__item">
-                            <img src="./icons/important/important-icon-3.svg" alt="important-icon-3">
-                            <p class="important__item-descr">
-                                Возможен арест имущества
-                            </p>
-                        </div>
-                        <div class="important__item">
-                            <img src="./icons/important/important-icon-4.svg" alt="important-icon-4">
-                            <p class="important__item-descr">
-                                Приготовьтесь к
-                                конфискации имущества
-                            </p>
-                        </div>
+                        <button data-modal class="button important__button">Списать долг</button>
                     </div>
-                    <button class="button important__button">Списать долг</button>
                 </div>
             </div>
         </section>
@@ -196,33 +201,38 @@
             <div class="container">
                 <div class="help__wrapper">
                     <div class="help__block">
-                        <div class="help__block-title">Оставьте заявку прямо сейчас</div>
+                        <div class="help__block-title">Оставьте заявку прямо <br> сейчас</div>
                         <form action="#" class="help__block-form">
                             <input class="input" type="text" placeholder="Ваше Имя">
                             <input class="input" type="text" placeholder="+7 (___) ___ - __ - __">
                             <button class="button today__block-button">Отправить заявку</button>
                         </form>
                     </div>
-                    <p class="help__descr">
-                        Мы выступаем за помощь гражданам без обмана и переплат!
-                        Поэтому, не пытаясь навязать вам свои услуги, мы честно и грамотно расскажем вам, как именно вам
-                        лучше всего избавиться от долгов, как правильно поступить с имуществом и сохранить его, с какими
-                        трудностями вы сможете столкнуться и как списать долги за минимальные деньги. Вам нужно только
-                        оставить свои контактные данные и больше ничего!
-                    </p>
-                    <div class="help__items">
-                        <div class="help__item">
-                            <div class="help__item-number">80%</div>
-                            <p class="help__item-text">
-                                Считают, что полночтью писать долги невозможно
-                            </p>
-                        </div>
-                        <div class="help__item">
-                            <div class="help__item-number">20%</div>
-                            <p class="help__item-text">
-                                Решаются на банкроство
-                                и освобождаются от долгов
-                            </p>
+                    <div class="help__content">
+                        <p class="help__descr">
+                            Мы выступаем за помощь гражданам без обмана и переплат!
+                            Поэтому, не пытаясь навязать вам свои услуги, мы честно и грамотно расскажем вам, как именно
+                            вам
+                            лучше всего избавиться от долгов, как правильно поступить с имуществом и сохранить его, с
+                            какими
+                            трудностями вы сможете столкнуться и как списать долги за минимальные деньги. Вам нужно
+                            только
+                            оставить свои контактные данные и больше ничего!
+                        </p>
+                        <div class="help__items">
+                            <div class="help__item">
+                                <div class="help__item-number">80%</div>
+                                <p class="help__item-text">
+                                    Считают, что полночтью писать долги невозможно
+                                </p>
+                            </div>
+                            <div class="help__item">
+                                <div class="help__item-number">20%</div>
+                                <p class="help__item-text">
+                                    Решаются на банкроство <br>
+                                    и освобождаются от долгов
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -233,9 +243,66 @@
     <!-- /main -->
 
     <footer class="footer">
-        <img src="./icons//header/header-logo.svg" alt="header-logo">
+        <img class="footer__logo" src="./icons/header/header-logo.svg" alt="header-logo">
         <div class="footer__copy">Все права защищены. Мы используем политику конфиденциальности</div>
     </footer>
+
+    <div class="overlay hide">
+        <div class="modal">
+            <div class="modal__close">
+                <img data-close src="icons/modal/modal-close.svg" alt="modal-close">
+            </div>
+            <div class="modal__wrapper">
+                <div class="modal__content">
+                    <div class="title modal__subtitle">
+                        Хочу заявки!
+                    </div>
+                    <div class="modal__descr">
+                        Для получения заявок, оставьте номер
+                        телефона и ваше имя. Наш менеджер расскажет вам все подробнее.
+                    </div>
+                    <form class="modal__form" action="#">
+                        <input name="name" placeholder="Ваше имя" type="text">
+                        <input name="phone" placeholder="+7 (___) ___ - __ - __">
+                        <button data-modal-send-btn class="button modal__button">Хочу заявки</button>
+                    </form>
+                </div>
+                <div class="modal__img">
+                    <img src="img/modal/modal-image.jpg" alt="modal-image">
+                </div>
+            </div>
+        </div>
+        <!-- /.modal -->
+
+        <!-- <div class="modal-sent">
+            <div class="modal__close">
+                <picture class="logo__img">
+                    <source srcset="icons/modal/modal-close-mobile.png" media="(max-width: 600px)">
+                    <img data-close src="icons/modal/modal-close.png" alt="modal-close">
+                </picture>
+            </div>
+            <div class="modal-sent__wrapper">
+                <div class="modal-sent__content">
+                    <h2 class="modal-sent__title">
+                        Заявка
+                        отправлена!
+                    </h2>
+                    <p class="modal-sent__descr">
+                        Мы получили вашу заявку.
+                        Наш менеджер свяжится с вами.
+                    </p>
+                </div>
+                <div class="modal-sent__img">
+                    <picture class="logo__img">
+                        <source srcset="img/modal/modal-sent-mobile.png" media="(max-width: 600px)">
+                        <img src="img/modal/modal-sent-img.png" alt="modal-sent-img">
+                    </picture>
+                </div>
+            </div>
+        </div> -->
+        <!-- /.modal-sent -->
+    </div>
+    <!-- /.overlay -->
     <script src="js/script.js"></script>
 </body>
 </html>

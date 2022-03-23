@@ -1,6 +1,95 @@
 .header {
+    position: relative;
     padding-top: 44px;
+    min-height: 887px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #096B0E 13.52%, rgba(34, 122, 39, 0) 153.69%),
+    linear-gradient(113.28deg, #8CD742 3.44%, #27A02D 96.25%);
+    font-weight: 700;
+    overflow: hidden;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 164px;
+        background: url('../img/header/header-before-image.png') center (center / cover) no-repeat;
+        z-index: 10;
+    }
+    &__menu {
+        max-width: 1285px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .humburger {
+            display: none;
+        }
+    }
+    &__nav-menu {
+        display: flex;
+    }
+    &__nav-item {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 21px;
+        background: linear-gradient(98.89deg, #E6DD07 25.06%, #FFC93F 88.94%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        margin-left: 93px;
+        cursor: pointer;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__content {
+        padding-top: 105px;
+        color: #ffffff;
+    }
     &__content-title {
-
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        text-transform: uppercase;
+        max-width: 925px;
+        margin-bottom: 10px;
+        span {
+            display: block;
+            text-transform: lowercase;
+        }
+    }
+    &__content-divider {
+        width: 177px;
+        height: 5px;
+        background: linear-gradient(98.89deg, #E6DD07 25.06%, #FFC93F 88.94%);
+        margin-bottom: 21px;
+    }
+    &__content-small {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 389px;
+        margin-bottom: 30px;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__content-button {
+        padding-right: 20px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            right: 50px;
+            width: 36px;
+            height: 21px;
+            background: url('../icons/header/button-arrow.svg') center (center / cover) no-repeat;
+        }
+    }
+    &__image {
+        position: absolute;
+        top: 114px;
+        right: -150px;
     }
 }
