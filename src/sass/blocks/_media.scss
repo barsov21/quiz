@@ -105,6 +105,11 @@
         height: 550px;
         padding: 80px 0 0 30px;
     }
+    .modal-sent {
+        width: 900px;
+        height: 550px;
+        padding: 70px 0 0 70px;
+    }
 }
 
 @media (max-width: 1350px) {
@@ -176,7 +181,8 @@
             }
         }
     }
-    .modal {
+    .modal,
+    .modal-sent {
         width: 800px;
         height: 500px;
         padding: 60px 0 0 50px;
@@ -194,6 +200,10 @@
             text-align: left;
             margin-bottom: 20px;
         }
+    }
+    .modal-sent {
+        width: 800px;
+        height: 500px;
     }
 }
 @media (max-width: 1199px) {
@@ -420,6 +430,27 @@
             display: none;
         }
     }
+    .modal-sent {
+        width: 500px;
+        padding: 80px 50px;
+        text-align: center;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 36px;
+        }
+        &__descr {
+            margin-bottom: 35px;
+        }
+        &__img {
+            img {
+                width: 250px;
+                height: 261px;
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .container {
@@ -543,6 +574,9 @@
                 width: 100%;
             }
         }
+    }
+    .modal-sent {
+        width: 450px;
     }
 }
 @media (max-width: 576px) {
@@ -864,6 +898,21 @@
         }
         &__button {
             height: 55px;
+        }
+    }
+    .modal-sent {
+        padding: 94px 50px 0 50px;
+        width: 320px;
+        height: 500px;
+        &__title {
+            font-size: 32px;
+            line-height: 36px;
+        }
+        &__descr {
+            width: 270px;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 35px;
         }
     }
 }
