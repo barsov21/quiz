@@ -1,0 +1,113 @@
+.quiz {
+    padding-bottom: 188px;
+    &-card {
+        font-family: 'Segoe UI', sans-serif;
+        &__title {
+            font-size: 45px;
+            line-height: 48px;
+            max-width: 1203px;
+            margin-bottom: 41px;
+        }
+        &__rapid {
+            text-align: center;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #a5a5a5;
+            margin-bottom: 51px;
+        }
+        &__subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__form {
+            max-width: 792px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 0 auto 50px;
+        }
+        &__label {
+            display: inline-block;
+            margin: 0 0 18px 0;
+            position: relative;
+            .quiz-card__input {
+                z-index: -1;
+                opacity: 0;
+                display: block;
+                width: 0;
+                height: 0;
+                &:checked {
+                    height: 100%;
+                    width: 100%;
+                    background-color: red;
+                }
+            }
+            .quiz-card__text {
+                display: inline-block;
+                cursor: pointer;
+                width: 386px;
+                height: 70px;
+                padding: 26px 0 22px 36px;
+                border: 1px solid #a5a5a5;
+                border-radius: 5px;
+                transition: all 0.2s ease;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                &:checked {
+                    height: 100%;
+                    width: 100%;
+                    background-color: red;
+                }
+            }
+        }
+        &__dots {
+            display: flex;
+            justify-content: space-between;
+            width: 152px;
+            height: 15px;
+            margin: 0 auto 46px;
+        }
+        &__dot {
+            width: 14px;
+            height: 14px;
+            background-color: rgba(165, 165, 165, 0.25);
+            border-radius: 100%;
+            cursor: pointer;
+        }
+        &__dot--active {
+            background-color: #E5DD07;
+        }
+        &__buttons {
+            display: flex;
+            justify-content: space-between;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+        &__button {
+            width: 250px;
+            height: 70px;
+            border: 1px solid #E5DD07;
+            background-color: transparent;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #A5A5A5;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        &__button--active {
+            background: linear-gradient(98.89deg, #E6DD07 25.06%, #FFC93F 88.94%);
+            color: #ffffff;
+        }
+    }
+}
