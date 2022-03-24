@@ -353,7 +353,11 @@
         }
     }
     .quiz {
-        &-card--one {
+        &-card--one,
+        &-card--two,
+        &-card--three,
+        &-card--four,
+        &-card--five {
             .quiz-card__form {
                 justify-content: center;
             }
@@ -619,6 +623,7 @@
         }
     }
     .quiz {
+        padding-bottom: 80px;
         &-card {
             &__title {
                 margin-bottom: 25px;
@@ -654,7 +659,11 @@
                 }
             }
         }
-        &-card--one {
+        &-card--one,
+        &-card--two,
+        &-card--three,
+        &-card--four,
+        &-card--five {
             .quiz-card__form {
                 max-width: 280px;
                 margin-bottom: 30px;
@@ -663,6 +672,11 @@
                 padding: 17px 0 18px 25px;
                 width: 280px;
                 height: 54px;
+            }
+        }
+        &-card--three {
+            .quiz-card__text {
+                font-size: 16px;
             }
         }
     }

@@ -110,4 +110,9 @@
             color: #ffffff;
         }
     }
+    &-card--three {
+        .quiz-card__form {
+            max-width: 1196px;
+        }
+    }
 }
