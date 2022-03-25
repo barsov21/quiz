@@ -137,7 +137,7 @@
             img {
                 object-fit: cover;
                 width: 680px;
-                height: 560px;
+                height: 570px;
             }
         }
     }
@@ -389,6 +389,9 @@
         }
         &__item {
             margin-bottom: 50px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
         }
     }
     .quiz {
@@ -659,8 +662,8 @@
         }
         &__image-mobile {
             display: block;
+            margin: 0 auto;
             transform: translateY(-30px);
-            text-align: center;
         }
         &__content-button {
             padding-right: 0;
@@ -792,13 +795,17 @@
         }
     }
     .today {
+        overflow-x: hidden;
         min-height: 870px;
         &__title {
             max-width: 287px;
             margin-bottom: 30px;
         }
+        &__wrapper {
+            justify-content: center;
+        }
         &__content {
-            max-width: 100%;
+            max-width: fit-content;
         }
         &__content-descr {
             font-size: 16px;
@@ -814,7 +821,8 @@
         }
         &__block {
             padding: 52px 0;
-            width: 306px;
+            width: 100%;
+            max-width: 450px;
             height: 380px;
             &::before {
                 bottom: -55px;
@@ -824,7 +832,6 @@
             }
         }
         &__block-title {
-            max-width: 280px;
             font-size: 18px;
             line-height: 22px;
             margin-bottom: 30px;
@@ -860,6 +867,13 @@
             margin-bottom: 15px;
             order: 2;
         }
+        &__image-mobile {
+            display: block;
+            width: 100%;
+            max-width: 380px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
         &__items {
             order: 1;
         }
@@ -885,7 +899,9 @@
         &__button-mobile {
             display: block;
             order: 3;
-            width: 280px;
+            width: 100%;
+            max-width: 380px;
+            margin: 0 auto;
             height: 55px;
         }
     }
