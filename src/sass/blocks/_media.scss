@@ -362,8 +362,7 @@
             margin-left: 50px;
         }
         &__image {
-            top: 155px;
-            width: 380px;
+           display: none;
         }
         &__nav-item {
             font-size: 14px;
@@ -565,9 +564,6 @@
         &__content {
             padding-top: 50px;
         }
-        &__image {
-            display: none;
-        }
     }
     .features {
         &__title {
@@ -626,15 +622,15 @@
 }
 @media (max-width: 576px) {
     .container {
-        width: 320px;
+        max-width: 100%;
         padding: 0 10px;
     }
     .header {
         padding-top: 20px;
         min-height: 641px;
+        background: url('../img/header/header-bg-mobile.png') center (center / cover) no-repeat;
         &::before {
-            background-position: left;
-            height: 20px;
+            display: none;
         }
         &__menu {
             position: relative;
@@ -651,7 +647,6 @@
             font-size: 20px;
             line-height: 24px;
             margin-bottom: 20px;
-            max-width: 280px;
         }
         &__content-divider {
             margin: 0 auto;
@@ -665,6 +660,7 @@
         &__image-mobile {
             display: block;
             transform: translateY(-30px);
+            text-align: center;
         }
         &__content-button {
             padding-right: 0;
@@ -699,6 +695,7 @@
         }
         &__item-descr {
             margin-top: 15px;
+            margin-left: 0;
         }
     }
     .quiz {
@@ -767,6 +764,7 @@
                 margin-bottom: 25px;
             }
             .quiz-card__block {
+                display: none;
                 padding: 52px 0;
                 width: 306px;
                 height: 380px;
@@ -816,6 +814,7 @@
             margin-bottom: 25px;
         }
         &__block {
+            display: none;
             padding: 52px 0;
             width: 306px;
             height: 380px;
@@ -856,6 +855,7 @@
             }
         }
         &__image {
+            display: none;
             width: 285px;
             height: 263px;
             margin-left: 0;
@@ -920,6 +920,7 @@
             max-width: 260px;
         }
         &__block {
+            display: none;
             padding: 52px 0;
             width: 306px;
             height: 380px;
