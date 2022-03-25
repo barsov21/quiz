@@ -6,11 +6,11 @@
     background: linear-gradient(180deg, #096B0E 13.52%, rgba(34, 122, 39, 0) 153.69%),
     linear-gradient(113.28deg, #8CD742 3.44%, #27A02D 96.25%);
     font-weight: 700;
-    overflow: hidden;
+    overflow-x: hidden;
     &::before {
         content: '';
         position: absolute;
-        bottom: 0;
+        bottom: -2px;
         width: 100%;
         height: 164px;
         background: url('../img/header/header-before-image.png') center (center / cover) no-repeat;
