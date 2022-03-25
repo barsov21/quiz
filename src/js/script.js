@@ -48,4 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
             menu.classList.toggle('header__nav-menu_active');
         });
     });
+
+    const btns = document.querySelectorAll('.quiz-card__text');
+    const arr = [];
+
+    btns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const elem = e.target.innerHTML;
+            arr.push(elem);
+            console.log(arr);
+        });
+    });
 });
