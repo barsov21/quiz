@@ -140,4 +140,43 @@
             max-width: 1196px;
         }
     }
+    &-card--six {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .quiz__title {
+            margin-bottom: 37px;
+            text-align: left;
+        }
+        .quiz-card__descr {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            max-width: 709px;
+        }
+        .quiz-card__block {
+            padding: 85px 0 59px 0;
+            box-sizing: border-box;
+            width: 620px;
+            height: 506px;
+            background-color: #fff;
+            box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+            border-radius: 10px;
+            border: 1px solid #8CD742;
+        }
+        .quiz-card__block-title {
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 33px;
+            text-align: center;
+            margin-bottom: 54px;
+        }
+        .quiz-card__block-form {
+            max-width: 425px;
+            margin: 0 auto;
+            .quiz-card__block-button {
+                width: 100%;
+            }
+        }
+    }
 }

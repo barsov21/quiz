@@ -57,6 +57,7 @@
         box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
         border-radius: 10px;
         border: 1px solid #8CD742;
+        box-sizing: border-box;
         &::before {
             content: '';
             position: absolute;

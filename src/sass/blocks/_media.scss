@@ -67,6 +67,17 @@
                 font-size: 34px;
             }
         }
+        &-card--six {
+            .quiz-card__descr {
+                max-width: 630px;
+                margin-bottom: 35px;
+            }
+            .quiz-card__block {
+                padding-top: 65px;
+                width: 550px;
+                height: 470px;
+            }
+        }
     }
     .today {
         &__title {
@@ -272,6 +283,14 @@
                 font-size: 28px;
             }
         }
+        &-card--six {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            .quiz__title {
+                text-align: center;
+            }
+        }
     }
     .today {
         &__title {
@@ -381,6 +400,21 @@
         &-card--five {
             .quiz-card__form {
                 justify-content: center;
+            }
+        }
+        &-card--six {
+            align-items: center;
+            .quiz-card__block {
+               margin: 0 auto;
+               padding-top: 55px;
+               width: 480px;
+               height: 430px;
+            }
+            .quiz-card__block-form {
+                max-width: 350px;
+                .input {
+                    height: 60px;
+                }
             }
         }
     }
@@ -722,6 +756,41 @@
         &-card--three {
             .quiz-card__text {
                 font-size: 16px;
+            }
+        }
+        &-card--six {
+            .quiz-card__descr {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.045em;
+                margin-bottom: 25px;
+            }
+            .quiz-card__block {
+                padding: 52px 0;
+                width: 306px;
+                height: 380px;
+            }
+            .quiz-card__block-title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                max-width: 227px;
+            }
+            .quiz-card__block-form {
+                max-width: 280px;
+                .input {
+                    height: 55px;
+                    margin-bottom: 15px;
+                    &:last-of-type {
+                        margin-bottom: 20px;
+                    }
+                }
+                .quiz-card__block-button {
+                    height: 55px;
+                }
             }
         }
     }
