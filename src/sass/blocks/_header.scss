@@ -6,9 +6,9 @@
     background: linear-gradient(180deg, #096B0E 13.52%, rgba(34, 122, 39, 0) 153.69%),
     linear-gradient(113.28deg, #8CD742 3.44%, #27A02D 96.25%);
     font-weight: 700;
-    overflow-x: hidden;
     &::before {
         content: '';
+        max-width: 1920px;
         position: absolute;
         bottom: -2px;
         width: 100%;
@@ -89,7 +89,10 @@
     }
     &__image {
         position: absolute;
-        top: 114px;
-        right: -150px;
+        bottom: 100px;
+        right: 0;
+        img {
+            max-width: 800px;
+        }
     }
 }
