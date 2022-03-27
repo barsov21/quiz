@@ -22,16 +22,16 @@
                             <a href="#" class="header__nav-link">ГЛАВНАЯ</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">ЧТО ВЫ ПОЛУЧИТЕ</a>
+                            <a href="#features" class="header__nav-link">ЧТО ВЫ ПОЛУЧИТЕ</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">ОПРОС</a>
+                            <a href="#quiz" class="header__nav-link">ОПРОС</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">СПИСАТЬ ДОЛГИ</a>
+                            <a href="#today" class="header__nav-link">СПИСАТЬ ДОЛГИ</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">КОНТАКТЫ</a>
+                            <a href="#help" class="header__nav-link">КОНТАКТЫ</a>
                         </li>
                     </ul>
                 </nav>
@@ -67,7 +67,7 @@
     <!-- ./header -->
 
     <main>
-        <section class="features">
+        <section id="features" class="features">
             <div class="container">
                 <h2 class="title features__title">
                     Ответив на 3 вопроса Вы получите расчет стоимости, а также:
@@ -100,7 +100,7 @@
         </section>
         <!-- ./features -->
 
-        <section class="quiz">
+        <section id="quiz" class="quiz">
             <div class="container">
                 <h2 class="title quiz__title">
                     Пройдите короткий опрос и увеличьте свои шансы
@@ -110,168 +110,28 @@
                     Экспресс анализ возможности успешного банкротства
                 </div>
                 <div class="quiz__wrapper">
-                    <div class="quiz-card hide">
-                        <div class="quiz-card__subtitle">
-                            Укажите общую сумму Вашей задолженности?
-                        </div>
-                        <form action="#" class="quiz-card__form">
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">менее 300 тыс руб</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">От 300 до 500 тыс. руб.</span>
-                                </label>
-        
-                            </div>
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-3">
-                                    <input class="quiz-card__input" name="input-3" type="checkbox">
-                                    <span class="quiz-card__text">От 500 тыс. до 1 млн. руб.</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-4">
-                                    <input class="quiz-card__input" name="input-4" type="checkbox">
-                                    <span class="quiz-card__text">Более 1 млн. руб.</span>
-                                </label>
-                            </div>
-                        </form>
-                        <ul class="quiz-card__dots">
-                            <li class="quiz-card__dot quiz-card__dot--active"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                        </ul>
-                    </div>
-                    <div class="quiz-card hide">
-                        <div class="quiz-card__subtitle">
-                            Есть ли у вас ипотека?
-                        </div>
-                        <form action="#" class="quiz-card__form">
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">Да</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Нет</span>
-                                </label>
-
-                            </div>
-                        </form>
-                        <ul class="quiz-card__dots">
-                            <li class="quiz-card__dot quiz-card__dot--active"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                        </ul>
-                    </div>
-                    <div class="quiz-card quiz-card--three hide">
-                        <div class="quiz-card__subtitle">
-                            У вас есть официальный доход? (зарплата, пенсия и тд)
-                        </div>
-                        <form action="#" class="quiz-card__form">
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">Нет</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Есть До 15 тысяч рублей</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Есть от 50 до 100 тысяч рублей</span>
-                                </label>
-                            </div>
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">Есть от 15 тысяч рублей</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Есть от 30 до 50 тысяч рублей</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Более 100 тысяч рублей</span>
-                                </label>
-                            </div>
-                        </form>
-                        <ul class="quiz-card__dots">
-                            <li class="quiz-card__dot quiz-card__dot--active"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                        </ul>
-                    </div>
-                    <div class="quiz-card hide">
-                        <div class="quiz-card__subtitle">
-                            У вас есть имущество в собственности (несколько вариантов ответа)
-                        </div>
-                        <form action="#" class="quiz-card__form">
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">Да</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Жильё (квартира, дом)</span>
-                                </label>
-                            </div>
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">Автомобиль</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Земельный участок, дача и тд</span>
-                                </label>
-                            </div>
-                        </form>
-                        <ul class="quiz-card__dots">
-                            <li class="quiz-card__dot quiz-card__dot--active"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                            <li class="quiz-card__dot"></li>
-                        </ul>
-                    </div>
                     <div class="quiz-card">
                         <div class="quiz-card__subtitle">
                             Где с вами можно связаться?
                         </div>
-                        <form action="#" class="quiz-card__form">
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">What’s App, Viber</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">Telegram</span>
-                                </label>
-                            </div>
-                            <div class="quiz-card__inner">
-                                <label class="quiz-card__label" for="input-1">
-                                    <input class="quiz-card__input" name="input-1" type="checkbox">
-                                    <span class="quiz-card__text">SMS</span>
-                                </label>
-                                <label class="quiz-card__label" for="input-2">
-                                    <input class="quiz-card__input" name="input-2" type="checkbox">
-                                    <span class="quiz-card__text">По номеру телефона</span>
-                                </label>
-                            </div>
-                        </form>
+                        <div class="quiz-card__inner">
+                            <label class="quiz-card__label">
+                                <input type="radio" name="radio" class="quiz-card__input">
+                                <span class="quiz-card__text">Менее 300 тыс. руб.</span>
+                            </label>
+                            <label class="quiz-card__label">
+                                <input type="radio" name="radio" class="quiz-card__input">
+                                <span class="quiz-card__text">От 300 до 500 тыс. руб.</span>
+                            </label>
+                            <label class="quiz-card__label">
+                                <input type="radio" name="radio" class="quiz-card__input">
+                                <span class="quiz-card__text">От 500 тыс. до 1 млн. руб.</span>
+                            </label>
+                            <label class="quiz-card__label">
+                                <input type="radio" name="radio" class="quiz-card__input">
+                                <span class="quiz-card__text">Более 1 млн. руб.</span>
+                            </label>
+                        </div>
                         <ul class="quiz-card__dots">
                             <li class="quiz-card__dot quiz-card__dot--active"></li>
                             <li class="quiz-card__dot"></li>
@@ -283,9 +143,8 @@
                     <div class="quiz-card__buttons">
                         <button class="quiz-card__button">Назад</button>
                         <button class="quiz-card__button quiz-card__button--active">Далее</button>
-                    </div>
-                   
-                    <!-- <div class="hide quiz-card quiz-card--six hide">
+                    </div> 
+                    <!-- <div class="quiz-card quiz-card--six">
                         <div class="quiz-card__content">
                             <h2 class="title quiz__title">Ответы получены</h2>
                             <p class="quiz-card__descr">
@@ -308,7 +167,8 @@
         </section>
         <!-- ./quiz -->
 
-        <section class="today">
+
+        <section id="today" class="today">
             <div class="container">
                 <div class="today__wrapper">
                     <div class="today__content">
@@ -399,7 +259,7 @@
         </section>
         <!-- ./important -->
 
-        <section class="help">
+        <section id="help" class="help">
             <div class="container">
                 <div class="help__wrapper">
                     <div class="help__block">

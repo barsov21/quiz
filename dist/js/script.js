@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function openModal() {
         overlay.classList.add('show');
         overlay.classList.remove('hide');
+        overlay.style.overflow = 'auto';
         document.body.style.overflow = 'hidden';
     }
 
