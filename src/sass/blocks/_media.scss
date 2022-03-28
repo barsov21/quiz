@@ -519,9 +519,6 @@
     }
     .header {
         padding-top: 36px;
-        &__image {
-            display: none;
-        }
         &__menu {
             position: relative;
             .humburger {
@@ -678,6 +675,9 @@
             margin-bottom: 10px;
             margin: 0 auto;
         }
+        &__image {
+            display: none;
+        }
         &__image-mobile {
             display: block;
             margin: 0 auto;
@@ -803,6 +803,7 @@
         min-height: 870px;
         &__title {
             max-width: 287px;
+            margin: 0 auto;
             margin-bottom: 30px;
         }
         &__wrapper {
