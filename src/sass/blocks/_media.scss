@@ -378,11 +378,17 @@
             margin-left: 50px;
         }
         &__image {
-           display: none;
+           img {
+               max-width: 430px;
+           }
         }
         &__nav-item {
             font-size: 14px;
             margin-left: 20px;
+        }
+        &__content {
+            position: relative;
+            z-index: 30;
         }
         &__content-title {
             font-size: 26px;
@@ -513,6 +519,9 @@
     }
     .header {
         padding-top: 36px;
+        &__image {
+            display: none;
+        }
         &__menu {
             position: relative;
             .humburger {
@@ -810,6 +819,9 @@
                 display: none;
             }
         }
+        &__content-items {
+            justify-content: center;
+        }
         &__content-item {
             max-width: 287px;
             margin-bottom: 25px;
@@ -870,6 +882,7 @@
             margin-bottom: 15px;
         }
         &__items {
+            justify-content: center;
             order: 1;
         }
         &__item {

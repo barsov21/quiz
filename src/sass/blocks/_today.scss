@@ -4,6 +4,7 @@
     background: url('../img/today/today-bg.png') center (center / cover) no-repeat;
     min-height: 658px;
     box-sizing: border-box;
+    overflow: hidden;
     &__wrapper {
         display: flex;
         justify-content: space-between;
